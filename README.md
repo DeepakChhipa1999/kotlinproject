@@ -6,12 +6,12 @@ In this project, you will get a basic idea of how we can use kotlin, retrofit vi
 
 ## Screenshots
 
-[<img src="screenshots/screenshot1.png" align="left"
+[<img src="screenshots/screenshot1.png" align="center"
 width="250"
     hspace="10" vspace="10">](screenshots/screenshot1.png)
 
 
-    
+
 
 ## How to use it?
 Clone this repository and import into **Android Studio**

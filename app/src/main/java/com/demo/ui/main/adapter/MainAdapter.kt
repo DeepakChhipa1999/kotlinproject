@@ -53,7 +53,7 @@ class MainAdapter(private val restaurants: ArrayList<Restaurants.Venue>) : Recyc
 
             val intent = Intent(
                 Intent.ACTION_VIEW,
-                Uri.parse("http://maps.google.com/maps?saddr=${vanues.location!!.lat},${vanues.location!!.lng}&daddr=20.5666,45.345")
+                Uri.parse("http://maps.google.com/maps?q=loc:${vanues.location!!.lat},${vanues.location!!.lng}")
             )
             holder.itemView.context.startActivity(intent)
 
